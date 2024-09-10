@@ -50,13 +50,19 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 15
 # 2. name
+name = "Emiliano"
 # 3. song
+song = "Untouchable"
 # 4. food
+food = "rice with peas"
 # 5. number
+number = 10
 
 
 # #now include the variables you just made print in the following...
+print("There was a " + str(age) + " year old boy named " + name + " whos favorite song is " + song + " and his favorite food is " + food + " and his favortie number was " + str(number) + ".")
 
 
 # Once upon a time, there was a [age] old coder named [name].
@@ -66,6 +72,16 @@
 
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+
+number1 = 100
+number2 = 200
+number3 = 300
+number4 = 400
+number5 = 500
+# put all in sentence
+# print("I have " + number1 + "monkeys, " + number2 + "lions, " + number3 + "owls, " + number4 + "fish, and " + number5 + "dollars.")
+print(f"{number},{number1},{number2},{number3},{number4},{number5}")
+
 ##########################################################################################
 
 
